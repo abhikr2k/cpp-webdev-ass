@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    height: 70vh;
+    width: 30vw;
+    background-color: lightgreen;
+    text-align: center;
+    margin-top: 10em;
+    border-radius: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* padding: 4rem; */
+}
+
+.title {
+    background-color: yellow;
+    height: 6vh;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: fixed;
+    width: inherit;
+    z-index: 1;
+}
+
+.title span {
+    color: #000;
+    line-height: 3rem;
+    font-weight: 900;
+    font-size: 2em;
+    text-shadow: lightskyblue 5px 5px 7px;
+}
+
+.list {
+    margin-top: 45px;
+}
+
+dt {
+    background: lightskyblue;
+    height: 4vh;
+    position: sticky;
+    top: 45px;
+    font-weight: bold;
+}
+
+.gratitude {
+    background-color: hotpink;
+    height: fit-content;
+    padding-bottom: 1em;
+    z-index: 1;
+}
+
+.gratitude a {
+    text-decoration: none;
+    color: white;
+}
+
+.gratitude p {
+    color: white;
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+p span {
+    color: red;
+    font-size: 1.5em;
+}
+
+dt span {
+    color: white;
+    font-size: 1.5rem;
+}
+
+dd {
+    letter-spacing: .2em;
+    line-height: 3rem;
+    font-weight: bolder;
+    font-family: cursive;
+}
