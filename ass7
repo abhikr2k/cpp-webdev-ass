@@ -1,1 +1,50 @@
 
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+
+    <link rel="stylesheet" href="css/index.css">
+    <title>Weather teller app</title>
+    <link href="img/logo.png" rel="icon">
+    <link href="img/favicon.png" rel="apple-touch-icon">
+</head>
+
+<body>
+    <div class="app-main">
+        <h1>Weather App</h1>
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+        </div>
+
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city">Amravati, IN</div>
+                <div class="date" id="date">10 June (Wednesday), 2020</div>
+            </div>
+
+            <div class="weather-status">
+                <div class="temp" id="temp">34&deg;C</div>
+                <div class="min-max" id="min-max">32&deg;C (min) / 34&deg;C (max)</div>
+                <div class="weather" id="weather">Clear</div>
+                <div id="img"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="foot" id="foot">
+
+            © 2021 Weather_app BY Abhishek —</div>
+    </footer>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+
+</body>
+
+</html>
